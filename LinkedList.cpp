@@ -1,13 +1,3 @@
-/*
- *
- * Author: Joseph Maldonado
- * ID#: 010880953
- *
- * This file contains the implementation of the LinkedList class.
- * The description of each method is given at the beginning of each method.
- *
- */
-
 #include "LinkedList.h"
 
 //Default Constructor
