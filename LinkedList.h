@@ -1,12 +1,3 @@
-/*
- *
- * Author: Joseph Maldonado
- * ID#: 010880953
- *
- * This file is the header file for LinkedList.cpp.
- *
- */
-
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
