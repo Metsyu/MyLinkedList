@@ -264,7 +264,7 @@ void LinkedList :: insert(unsigned int pos, const element_type& x)
 		tempPos++;
 		if (tempPos > pos)
 		{
-			goto NEXT;
+			break;
 		}
 		current = current -> next;
 	}
@@ -293,7 +293,7 @@ void LinkedList :: erase(unsigned int pos)
 		tempPos++;
 		if (tempPos > pos)
 		{
-			goto NEXT;
+			break;
 		}
 		current = current -> next;
 	}
