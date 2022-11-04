@@ -268,7 +268,7 @@ void LinkedList :: insert(unsigned int pos, const element_type& x)
 		}
 		current = current -> next;
 	}
-	NEXT:
+
 	temp -> next = current -> next;
 	current -> next -> prev = temp;
 	current -> next = temp;
@@ -297,7 +297,7 @@ void LinkedList :: erase(unsigned int pos)
 		}
 		current = current -> next;
 	}
-	NEXT:
+	
 	current -> prev -> next = current -> next;
 	current -> next -> prev = current -> prev;
 	delete current;
